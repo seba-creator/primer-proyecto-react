@@ -1,3 +1,5 @@
+@import './styles/variables.css';
+
 .App {
   text-align: center;
 }
@@ -28,10 +30,17 @@
   color: #61dafb;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--col-body);
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
