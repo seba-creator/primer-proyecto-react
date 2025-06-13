@@ -1,0 +1,37 @@
+.navbarCont {
+    height: 60px;
+    background-color: var(--col-nav);
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+
+.infoNavbar {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    max-width: 1800px;
+}
+
+.logoLinkedin,
+.contactNavbar,
+.nameNavbar,
+.SuperpowersNavbar {
+    color: var(--col-txt-prim);
+    font-size: var(--font-18);
+}
+
+.logoLinkedin:hover,
+.contactNavbar:hover,
+.nameNavbar:hover,
+.SuperpowersNavbar:hover {
+    color: var(--col-txt-prim-hover);
+}
+
+a {
+    text-decoration: none;
+    display: inline-flex;
+}
