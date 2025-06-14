@@ -1,0 +1,17 @@
+.heroContainer{
+    height: 70vh;
+    display: flex;
+    gap: 48px;
+    align-items: center;
+    width: 100%;
+    
+}
+
+h1 {
+    color: var(--col-txt-prim);
+    font-size: 65px;
+}
+
+.pDescHero {
+    color: red;
+}
