@@ -1,6 +1,10 @@
 .navbarCont {
+    position: sticky;
+    top: 0;
+    z-index: 10;
     height: 60px;
-    background-color: var(--col-nav);
+    background-color: rgba(13, 13, 13, 0.8);
+    backdrop-filter: blur(8px);
     padding: 24px;
     display: flex;
     justify-content: space-between;
