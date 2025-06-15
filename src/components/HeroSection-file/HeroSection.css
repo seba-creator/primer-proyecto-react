@@ -4,6 +4,8 @@
     gap: 48px;
     align-items: center;
     width: 100%;
+    justify-content: center;
+    align-items: center;
     
 }
 
@@ -13,5 +15,20 @@ h1 {
 }
 
 .pDescHero {
-    color: red;
+    color: var(--col-txt-prim);
+}
+
+.fotoPerfil{
+
+    max-width: 480px;
+
+}
+.heroInfo, .heroRight{
+    width: 50%;
+}
+
+.heroRight{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
