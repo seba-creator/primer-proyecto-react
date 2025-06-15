@@ -22,7 +22,7 @@ const BgParticles = () => {
         options={{
           background: {
             color: {
-              value: "#0d0d0d", // fondo oscuro
+              value: "#000000", // fondo particles
             },
           },
           fpsLimit: 120,
@@ -49,11 +49,11 @@ const BgParticles = () => {
           },
           particles: {
             color: {
-              value: "#ffffff",
+              value: "#c5afd6",
             },
             links: {
               color: "#ffffff",
-              distance: 150,
+              distance: 200,
               enable: true,
               opacity: 0.5,
               width: 1,

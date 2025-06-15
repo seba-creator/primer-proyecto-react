@@ -11,12 +11,12 @@ function App() {
       <BgParticles />
 
       <Navbar name={"Sebastian Arocena Geldenhuys"} contact={"Contacto"} />
-      <container className="siteContainer">
+      <div className="siteContainer">
         <div className='mainContainer'>
-          <HeroSection title={"Hola Bienvenido"} mainDescriptionHero={"Bienvenido a mi espacio digital. Soy Sebastian Arocena, Front-End Developer enfocado en crear interfaces modernas y funcionales."}/>
+          <HeroSection title={"Bienvenido, yo soy"} mainDescriptionHero={"Bienvenido a mi espacio digital. Soy Sebastian Arocena, Front-End Developer enfocado en crear interfaces modernas y funcionales."}/>
           <SectionFloat title={"soy Seba =)"} mainDescription={"Mi nombre es Sebastian Arocena y mi novia es Valentina =)"} />
         </div>
-      </container>
+      </div>
 
 
     </div>

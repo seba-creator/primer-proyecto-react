@@ -1,11 +1,13 @@
 .navbarCont {
-    position: sticky;
+    width: 100%;
+    position: fixed;
     top: 0;
+    left: 0;
     z-index: 10;
     height: 60px;
     background-color: rgba(13, 13, 13, 0.8);
     backdrop-filter: blur(8px);
-    padding: 24px;
+    padding: 12px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,7 +26,7 @@
 .contactNavbar,
 .nameNavbar,
 .SuperpowersNavbar {
-    color: var(--col-txt-prim);
+    color: var(--col-txt-main);
     font-size: var(--font-18);
 }
 
@@ -32,8 +34,13 @@
 .contactNavbar:hover,
 .nameNavbar:hover,
 .SuperpowersNavbar:hover {
-    color: var(--col-txt-prim-hover);
+    color: var(--col-main-purple);
 }
+
+.nameNavbar {
+    font-weight: 600;
+}
+
 
 a {
     text-decoration: none;
