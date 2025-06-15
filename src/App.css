@@ -30,29 +30,96 @@
   color: #61dafb;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
 body {
   margin: 0;
   padding: 0;
   background: var(--col-body);
+  font-family: 'Josefin Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+}
+
+p,
+span {
+  font-weight: 400;
+}
+button {
+  font-weight: 600;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
 
 .siteContainer {
   width: 100%;
   display: flex;
   justify-content: center;
 }
-
 .mainContainer {
   width: 100%;
-  max-width: 1400px;
+  max-width: 1272px;
+  margin: 0 auto;
+  padding: 0 32px;
+  padding-top: 108px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* Desktop medio */
+@media (max-width: 1271px) {
+  .mainContainer {
+    max-width: 1080px;
   }
+}
 
-  to {
-    transform: rotate(360deg);
+/* Desktop chico */
+@media (max-width: 1120px) {
+  .mainContainer {
+    max-width: 950px;
+  }
+}
+
+/* Tablet horizontal */
+@media (max-width: 991px) {
+  .mainContainer {
+    max-width: 720px;
+  }
+}
+
+/* Tablet vertical */
+@media (max-width: 767px) {
+  .mainContainer {
+    max-width: 540px;
+  }
+}
+
+/* Mobile medio */
+@media (max-width: 576px) {
+  .mainContainer {
+    max-width: 440px;
+  }
+}
+
+/* Mobile chico */
+@media (max-width: 479px) {
+  .mainContainer {
+    max-width: 375px;
   }
 }

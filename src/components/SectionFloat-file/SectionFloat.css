@@ -1,5 +1,5 @@
 .sectionFloat{
-    background-color: var(--col-bg-floatSection);
+    background-color: var(--col-main-purple-blur);
     height: 75vh;
     z-index: 1;
     border-radius: 48px;
@@ -11,8 +11,8 @@
 }
 
 h2{
-    color: var(--col-txt-prim);
+    color: var(--col-txt-main);
 }
 .pDesc{
-    color: var(--col-txt-prim);
+    color: var(--col-txt-main);
 }

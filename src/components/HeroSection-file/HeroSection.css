@@ -1,33 +1,64 @@
-.heroContainer{
-    height: 70vh;
+.heroContainer {
+    height: calc(100vh - 84px);
     display: flex;
     gap: 48px;
     align-items: center;
     width: 100%;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 h1 {
-    color: var(--col-txt-prim);
+    color: var(--col-txt-main);
     font-size: 65px;
 }
 
+.mainHeroTxt {
+    color: var(--col-main-purple);
+    margin-left: -4px;
+}
+
+.infoHero {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
 .pDescHero {
-    color: var(--col-txt-prim);
+    color: var(--col-txt-main);
 }
 
-.fotoPerfil{
+.heroBtn {
+    height: 60px;
+    width: 120px;
+    padding: 0 12px;
+    color: var(--col-txt-main);
+    background-color: var(--col-main-purple);
+    border-radius: 8px;
+}
 
+.heroBtn:hover {
+    background-color: #5c4f6b;
+}
+
+.fotoPerfil {
     max-width: 480px;
-
 }
-.heroInfo, .heroRight{
+
+.heroInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}    
+
+
+.heroInfo,
+.heroRight {
     width: 50%;
 }
 
-.heroRight{
+.heroRight {
     display: flex;
     align-items: center;
     justify-content: center;
