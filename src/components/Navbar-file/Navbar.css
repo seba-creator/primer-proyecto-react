@@ -27,7 +27,7 @@
 .nameNavbar,
 .SuperpowersNavbar {
     color: var(--col-txt-main);
-    font-size: var(--font-18);
+    font-size: var(--font-p-small);
 }
 
 .logoLinkedin:hover,

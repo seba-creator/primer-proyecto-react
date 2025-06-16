@@ -1,0 +1,10 @@
+.videoCardContainer {
+    width: 40%;
+    align-content: center;
+  }
+  
+  .videoPreview,
+  .screenshotImg {
+    width: 100%;
+    border-radius: 18px;
+  }

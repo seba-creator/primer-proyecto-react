@@ -17,6 +17,7 @@ h1 {
 .mainHeroTxt {
     color: var(--col-main-purple);
     margin-left: -4px;
+    line-height: 75px;
 }
 
 .infoHero {

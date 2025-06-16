@@ -1,18 +1,61 @@
-.sectionFloat{
-    background-color: var(--col-main-purple-blur);
-    height: 75vh;
-    z-index: 1;
-    border-radius: 48px;
-    padding: 24px 32px;
+.sectionFloat {
     display: flex;
     flex-direction: column;
+    gap: 12px;
+    padding: 64px 0;
+    width: 100%;
     align-items: center;
-    backdrop-filter: blur(5px);
 }
 
-h2{
-    color: var(--col-txt-main);
+.skillSelector {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding: 8px;
+    border: 2px solid gray;
+    border-radius: 30px;
+    width: min-content;
+
+    background-color: rgba(255, 255, 255, 0.05);
+    /* fondo transparente */
+    backdrop-filter: blur(12px);
+    /* el blur */
+    -webkit-backdrop-filter: blur(12px);
+    /* para Safari */
 }
-.pDesc{
-    color: var(--col-txt-main);
+
+.skillSelector img {
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    opacity: 0.5;
+}
+
+.skillSelector img.active {
+    transform: scale(1.2);
+    opacity: 1;
+}
+
+.techCard {
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    justify-items: center;
+    padding: 32px;
+    width: 100%;
+    background-color: #222;
+    color: white;
+    border-radius: 16px;
+    transition: all 0.4s ease;
+}
+
+
+
+
+.workTxtCont {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 60%;
 }
