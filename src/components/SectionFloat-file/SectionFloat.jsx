@@ -6,9 +6,8 @@ import reactLogo from '../../assets/ReactLogo.png';
 import webflowLogo from '../../assets/WebflowLogo.png';
 import svelteLogo from '../../assets/SvelteLogo.png';
 import jsLogo from '../../assets/JsLogo.png'
-import poloImg from '../../assets/poloSiteImg.png'
 import poloSiteVideo from '../../assets/poloVideoSite.mp4'
-import HoverVideoCard from '../HoverVideoCard-file/HoverVideoCard';
+import VideoCard from '../VideoCard-file/VideoCard';
 
 
 
@@ -23,9 +22,7 @@ const techData = {
         title: "Webflow",
         descTool: "Plataforma de diseño visual para construir sitios web responsive sin código.",
         descWork: "Entre 2022 y 2025 trabajé en PoloTab, una startup enfocada en tecnología. Mi enfoque estaba en el desarrollo y mantenimiento de sitios web en la plataforma de Webflow, desde landings hasta páginas de precios y más. Las animaciones nativas le daban vida a sitios dinámicos. Seguía diseños en Figma y colaboraba de cerca con el equipo para mejorar el sistema. Un mix entre diseño, código y ritmo startup.",
-        color: "#4353ff",
-        image: poloImg
-
+        color: "#4353ff"
     },
     JavaScript: {
         title: "JavaScript",
@@ -47,10 +44,13 @@ function SectionFloat({ }) {
     return (
         <section className="sectionFloat">
 
-            <div className="techCard" style={{ backgroundColor: techData[selectedTech].color }}>
+            {/* <div className="techCard" style={{ backgroundColor: techData[selectedTech].color }}> */}
+            <div className="techCard">
+
                 {selectedTech === "Webflow" && (
-                    <HoverVideoCard
-                        screenshotSrc={poloImg}
+
+                    <VideoCard
+                        cardTitle={"PoloTab Site!"}
                         videoSrc={poloSiteVideo}
                     />
                 )}

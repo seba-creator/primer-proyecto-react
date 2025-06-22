@@ -9,19 +9,11 @@
 
 .skillSelector {
     display: flex;
-    justify-content: center;
-    gap: 16px;
+    gap: 100px;
     padding: 8px;
-    border: 2px solid gray;
-    border-radius: 30px;
-    width: min-content;
 
-    background-color: rgba(255, 255, 255, 0.05);
-    /* fondo transparente */
-    backdrop-filter: blur(12px);
-    /* el blur */
-    -webkit-backdrop-filter: blur(12px);
-    /* para Safari */
+
+
 }
 
 .skillSelector img {
@@ -44,7 +36,6 @@
     justify-items: center;
     padding: 32px;
     width: 100%;
-    background-color: #222;
     color: white;
     border-radius: 16px;
     transition: all 0.4s ease;

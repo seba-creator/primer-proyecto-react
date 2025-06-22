@@ -17,7 +17,7 @@ function HeroSection({ mainDescriptionHero }) {
                         typeSpeed={60}
                         backSpeed={50}
                         backDelay={1500}
-                        loop={false}
+                        loop={true}
                     />
                 </h1>
 
